@@ -8,12 +8,14 @@ body{
 
 .main{
     height: 100vh;
+    display: flex;
 }
 .side{
     width: 250px;
     background-color:rgb(33, 30, 30) ;
     margin: 10px;
     height: 100vh;
+    box-sizing: border-box;
 }
 
 .navbar{
@@ -24,7 +26,7 @@ body{
     margin :10px;
     border-radius: 10px;
     line-height: 20px;
-    display: inline-flex;
+    display: flex;
     /* box-shadow: 0 4px 8px rgba(218, 217, 206, 0.1); */
 }
 
@@ -168,4 +170,35 @@ li{
     width: 25px;
     margin-right: 10px;
     padding-top: 5px;
+}
+
+.rside{
+    border-radius: 10px;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(33, 30, 30);
+}
+
+.bar1{
+    background-color: rgb(45, 41, 41);
+    height: 10vh;
+    font-size: 1.5vw;;
+    color: white;
+    margin-top: 0px;
+    padding:20px;
+    padding-left: 40%;
+    box-sizing: border-box;
+}
+
+.login{
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 75%;
+    padding-bottom: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: black;
+    
 }
