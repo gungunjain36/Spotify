@@ -151,7 +151,7 @@ li{
 }
 
 .last{
-    background-color: rgb(33, 30, 30);
+    background-color: rgb(33, 30, 30); 
     margin: 10px;
     margin-top: 0px;
     border-radius: 0px;
@@ -164,12 +164,20 @@ li{
     line-height:30px;
     color:#968989;
     border-radius: 20px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */ 
     /* background-image: linear-gradient(100deg, green, rgb(68, 61, 61)); */
 }
 
+.conlast{
+    padding-right: 20px;
+    word-spacing: 2px;
+}
+
 #lang{
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
     border-radius: 20px;
     padding: 10px 20px;
     border-color: white;
@@ -187,6 +195,10 @@ li{
     width: 20px;
     margin-right: 10px;
     padding-top: 5px;
+}
+
+.lang-button{
+    margin-top: 20px;
 }
 
 .rside{
@@ -213,11 +225,13 @@ li{
     flex-grow: 1;
     gap: 100px;
     background-image: linear-gradient(130deg, hsl(109, 32%, 53%), black);
+    position: sticky;
+    top:0px;
 }
 
 .login{
     margin-left: 50px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     border-radius: 20px;
     height: 100%;
     width: 75px;
@@ -326,6 +340,10 @@ li{
     color: grey;
 }
 .footer-content:hover{
-    color: white;
+    color: rgb(216, 216, 216);
     font-style: italic;
+}
+
+b{
+    margin-bottom: 35px;
 }
